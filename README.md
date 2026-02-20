@@ -1,27 +1,53 @@
 # Work Sync App
 
-Work Sync App is a collaborative task management and productivity mobile application built with Flutter.  
-The app is designed to help teams organize projects, track progress, and improve workflow efficiency through real-time synchronization and structured task management.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-Language-0175C2?logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-Backend-FFCA28?logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Architecture-Clean-blue" />
+</p>
 
-## Overview
+Work Sync App is a collaborative productivity and task management mobile application built with **Flutter**.  
+It enables teams to organize projects, synchronize tasks in real-time, and track progress efficiently.
 
-Work Sync provides a streamlined experience for managing daily tasks, team assignments, and project timelines.  
-It focuses on productivity, collaboration, and clean user experience.
+---
 
-## Key Features
+## App Preview
 
-- Create, update, and manage tasks  
-- Team collaboration and shared task boards  
-- Progress tracking and status updates  
-- Real-time data synchronization  
-- Clean and responsive user interface  
+<p align="center">
+  <img src="demo.gif" width="350" alt="Work Sync App Demo"/>
+</p>
 
-## Getting Started
+> Replace `demo.gif` with your actual animation file name.
 
-To run this project locally:
+---
+
+## Features
+
+- Task creation, editing, and deletion  
+- Team collaboration and shared workflows  
+- Progress tracking with status updates  
+- Real-time synchronization  
+- Clean, responsive UI  
+- Scalable architecture  
+
+---
+
+## Architecture
+
+The application follows **Clean Architecture principles** to ensure:
+
+- Separation of concerns  
+- Maintainable code structure  
+- Scalability  
+- Improved testability  
+
+---
+
+## Installation
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/your-username/work_sync_app.git
 cd work_sync_app
 flutter pub get
 flutter run
